@@ -2,9 +2,25 @@
 """Homework_01.ipynb
 
 # Regression Homework
-
 This is the first assignment for CAP 4630 and we will develop two basic models with regression. \
 You will use **"Tasks"** and **"Hints"** to finish the work. **(Total 100 Points)**
+
+Summary:
+This homework involves developing two regression models as part of the first assignment for CAP 4630. The key tasks are to implement:
+
+1. Single Variable Nonlinear Regression:
+   - Established a cubic function to model the relationship between variables X and Y.
+   - Used Mean Squared Error (MSE) to evaluate the model's performance.
+   - Applied Gradient Descent to optimize the model coefficients a, b, c, and d over 10,000 epochs with a learning rate of 1e-6
+   - The optimal coefficients were printed at the final epoch, and a prediction function was derived using these coefficients.
+
+2. Multiple Variable Linear Regression:
+   - Loaded data with two independent variables X_1 and X_2, and the dependent variable Y.
+   - Visualized the data with a 3D scatter plot.
+   - Established a linear function and used Gradient Descent to optimize the coefficients m_1, m_2, and m_3.
+   - Similar to the single-variable model, MSE was used to compute the loss, and the results were printed at each epoch for debugging.
+
+Both models utilized common data science libraries like NumPy, Pandas, and Matplotlib for data processing, visualization, and mathematical computations.
 
 
 **Task Overview:**
